@@ -1,0 +1,26 @@
+.cart-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #272525;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    color: #272525;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.img-cart{
+width: 30px;
+margin-right: 40px;
+
+}
